@@ -7,13 +7,13 @@ preload = () => {
 }
 centerCanvas = () => {
   var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) + 10;
+  var y = (windowHeight - height) / 2;
   cnv.position(x, y);
 }
 
 function setup (){
   //Canvas configuration
-  cnv = createCanvas(400,400);
+  cnv = createCanvas(300,200);
   centerCanvas()
   background(0)
 
