@@ -7,7 +7,7 @@ preload = () => {
 }
 centerCanvas = () => {
   var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) + 4;
+  var y = (windowHeight - height) + 10;
   cnv.position(x, y);
 }
 
